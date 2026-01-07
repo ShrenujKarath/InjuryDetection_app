@@ -2,13 +2,13 @@
 
 
 
-This project implements a \*\*binary injury detection system\*\* using deep learning.  
+This project implements a binary injury detection system using deep learning.  
 
-It classifies images of body parts into \*\*Normal\*\* or \*\*Injury\*\* and provides \*\*visual explanations (Grad-CAM)\*\* to help users understand the model’s predictions.
+It classifies images of body parts into Normal or Injury and provides visual explanations (Grad-CAM) to help users understand the model’s predictions.
 
 
 
-The system is designed as a \*\*screening and decision-support tool\*\*, not a medical diagnosis system.
+The system is designed as a screening and decision-support tool, not a medical diagnosis system.
 
 
 
@@ -16,45 +16,23 @@ The system is designed as a \*\*screening and decision-support tool\*\*, not a m
 
 
 
-\## 🔍 Features
+\# 🔍 Features
 
 
 
-\- Binary image classification: \*\*Normal vs Injury\*\*
+\- Binary image classification: Normal vs Injury
 
-\- Transfer learning using \*\*MobileNetV2\*\*
+\- Transfer learning using MobileNetV2
 
 \- Handling of class imbalance using dataset expansion and class-weighted loss
 
-\- \*\*Class-specific data augmentation\*\* for better generalization
+\- Class-specific data augmentation for better generalization
 
 \- Model evaluation using accuracy, precision, recall, and F1-score
 
-\- \*\*Grad-CAM visual explanations\*\* for interpretability
+\- Grad-CAM visual explanations for interpretability
 
-\- Interactive \*\*Streamlit web application\*\* for deployment
-
-
-
----
-
-
-
-\## 🧠 Model Overview
-
-
-
-\- \*\*Architecture:\*\* MobileNetV2 (pretrained on ImageNet)
-
-\- \*\*Framework:\*\* PyTorch
-
-\- \*\*Training Platform:\*\* Kaggle
-
-\- \*\*Input Size:\*\* 224 × 224 RGB images
-
-\- \*\*Output:\*\* Binary classification (Normal / Injury)
-
-\- \*\*Explainability:\*\* Grad-CAM heatmap overlay
+\- Interactive Streamlit web application for deployment
 
 
 
@@ -62,7 +40,29 @@ The system is designed as a \*\*screening and decision-support tool\*\*, not a m
 
 
 
-\## 📊 Performance Summary
+\# 🧠 Model Overview
+
+
+
+\- Architecture: MobileNetV2 (pretrained on ImageNet)
+
+\- Framework: PyTorch
+
+\- Training Platform: Kaggle
+
+\- Input Size: 224 × 224 RGB images
+
+\- Output: Binary classification (Normal / Injury)
+
+\- Explainability: Grad-CAM heatmap overlay
+
+
+
+---
+
+
+
+\# 📊 Performance Summary
 
 
 
@@ -80,7 +80,7 @@ The system is designed as a \*\*screening and decision-support tool\*\*, not a m
 
 
 
-\## 🗂 Project Structure
+\# 🗂 Project Structure
 
 InjuryDetection/
 
@@ -118,11 +118,11 @@ InjuryDetection/
 
 
 
-\## 🚀 How to Run the Application
+\# 🚀 How to Run the Application
 
 
 
-\### 1️⃣ Clone the repository
+\# 1️⃣ Clone the repository
 
 
 
